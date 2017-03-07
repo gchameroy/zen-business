@@ -2,6 +2,7 @@ security:
     encoders:
         AppBundle\Entity\User:
             algorithm: bcrypt
+            cost: 12
     providers:
         our_db_provider:
             entity:

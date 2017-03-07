@@ -31,7 +31,8 @@
         "twig/twig": "^2.0",
         "friendsofsymfony/rest-bundle": "^2.1",
         "nelmio/api-doc-bundle": "^2.13",
-        "lexik/jwt-authentication-bundle": "^2.1"
+        "lexik/jwt-authentication-bundle": "^2.1",
+        "jms/serializer": "^1.5"
     },
     "require-dev": {
         "sensio/generator-bundle": "^3.0",

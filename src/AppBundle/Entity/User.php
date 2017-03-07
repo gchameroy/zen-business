@@ -189,6 +189,8 @@ class User implements UserInterface
         return $this->isActive;
     }
 
+
+
     public function getSalt()
     {
         return null;
@@ -201,6 +203,6 @@ class User implements UserInterface
 
     public function eraseCredentials()
     {
+        $this->plainPassword = null;
     }
 }
-
